@@ -12,7 +12,7 @@ body {
   position: fixed;
   width: 100%;
   text-align: center;
-  z-index: 90;
+  z-index: 10;
 }
 
 .theModal .container {
