@@ -1,12 +1,17 @@
 $(document).ready(main);
 
 function main() {
-
+  $(".theModal").hide();
   $(".navWrap").hide();
   $(".featured").hide();
   $(".behindSide").hide();
   $(".navWrap").slideDown(1000);
+  $(".theModal").fadeIn(2000);
   $(".featured").fadeIn(2000);
+
+  $(".closeMod").click(function() {
+    $(".theModal").slideUp(500);
+  })
 
   $("#ex").click(function() {
     $("html body").animate({

@@ -7,6 +7,27 @@ body {
   min-width: 340px;
 }
 
+.theModal {
+  display: block;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 90;
+}
+
+.theModal .container {
+  max-width: 300px;
+  margin-top: 20px;
+  background-color:  white;
+  border-radius: 10px;
+  box-shadow: 0px 12px 20px -2px rgba(0,0,0,0.50);
+  padding: 20px 15px 20px 15px;
+}
+
+.theModal .container p {
+  margin-top: 20px;
+}
+
 
 .border {
   border: 1px solid red;
@@ -454,6 +475,10 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
+
+  .theModal .container p {
+    font-size: 20px;
+  }
 
   .mobileNav {
     display: block;
