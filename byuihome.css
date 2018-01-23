@@ -296,7 +296,7 @@ body {
 }
 
 .audience h1 {
-  max-width: 900px;
+  max-width: 800px;
   position: relative;
   display: inline-block;
   width: 80%;
@@ -369,7 +369,7 @@ body {
 }
 
 .news {
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .newsRoom {
