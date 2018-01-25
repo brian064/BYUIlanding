@@ -20,19 +20,19 @@ function main() {
   })
 
   $("#ex2").click(function() {
-    $("html body").animate({
+    $("html").animate({
       scrollTop: $(".audience").offset().top
     }, 1000)
   })
 
   $("#news").click(function() {
-    $("html body").animate({
+    $("html").animate({
       scrollTop: $(".newsRoom").offset().top
     }, 1000)
   })
 
   $("#news1").click(function() {
-    $("html body").animate({
+    $("html").animate({
       scrollTop: $(".newsRoom").offset().top
     }, 1000)
   })
